@@ -39,23 +39,6 @@ Predict income classes (<=50K or >50K) using the **Adult Census Income Dataset**
 
 ---
 
-## 🚀 How to Run Locally
-
-1. Clone the repo
-
-git clone  
-https://github.com/your-username/employee-salary-prediction.git cd employee-salary-prediction
-
-2. Install dependencies
-
-pip install -r requirements.txt
-
-3. Start the app
-
-streamlit run app.py
-
----
-
 ## 📂 Project Structure
 
 . ├── app.py                    # Streamlit web app ├── model_training.ipynb     # Jupyter Notebook for model building ├── best_model.pkl           # Trained ML model ├── cleaned_adult.csv        # Cleaned dataset for batch prediction ├── requirements.txt         # Python dependencies └── README.md                # Project overview
@@ -88,37 +71,6 @@ Adult Income Dataset from UCI Machine Learning Repository
 ---
 👤 Author
 
-Brijeshrath67
+Yuvaraj M
 
 BTech CSE (AI & ML)
-
-
----
-
-🌟 Acknowledgements
-
-UCI ML Repository
-
-Streamlit Documentation
-
-Scikit-learn Docs
-
-
-
----
-
-📌 Future Improvements
-
-Add cloud deployment (e.g., Streamlit Cloud, Render, or HuggingFace)
-
-Model performance dashboard
-
-Hyperparameter tuning & model comparison
-
-
-
----
-
-📄 License
-
-This project is licensed under the MIT License.
